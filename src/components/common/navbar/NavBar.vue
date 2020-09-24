@@ -17,7 +17,11 @@
  .nav-bar {
    display: flex;
    line-height: 44px;
+<<<<<<< HEAD
    height: 44px;
+=======
+   /*height: 44px;*/
+>>>>>>> 667e7c6f9b6db3c912a231d8dcc9bc42fd200482
    text-align: center;
    box-shadow: 0 1px 1px rgba(100,100,100,.1);
  }

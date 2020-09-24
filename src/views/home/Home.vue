@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+<<<<<<< HEAD
     <nav-bar class="home-nav"><div slot="center">玫瑰花园</div></nav-bar>
     <home-swiper :banners="banners"/>
     <recommend-view :recommends="recommends"/>
@@ -58,10 +59,14 @@
       <li>49</li>
       <li>50</li>
     </ul>
+=======
+    <nav-bar class="home-nav"><div slot="center">购物街</div></nav-bar>
+>>>>>>> 667e7c6f9b6db3c912a231d8dcc9bc42fd200482
   </div>
 </template>
 
 <script>
+<<<<<<< HEAD
   import HomeSwiper from "./childComps/HomeSwiper";
   import RecommendView from "./childComps/RecommendView";
   import FeatureView from "./childComps/FeatureView";
@@ -143,11 +148,19 @@
           this.goods[type].page += 1;
         })
       }
+=======
+  import NavBar from "components/common/navbar/NavBar";
+  export default {
+    name: "Home",
+    components: {
+      NavBar,
+>>>>>>> 667e7c6f9b6db3c912a231d8dcc9bc42fd200482
     }
   }
 </script>
 
 <style scoped>
+<<<<<<< HEAD
   .home {
     padding-top: 44px;
   }
@@ -164,5 +177,10 @@
   .tab-control {
     position: sticky;
     top: 44px;
+=======
+  .home-nav {
+    background-color: var(--color-tint);
+    color:#fff;
+>>>>>>> 667e7c6f9b6db3c912a231d8dcc9bc42fd200482
   }
 </style>

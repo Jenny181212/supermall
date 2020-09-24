@@ -35,12 +35,20 @@
         return this.$route.path.indexOf(this.path) !== -1
       },
       activeStyle() {
+<<<<<<< HEAD
         return this.isActive? {color:this.activeColor} : {}
+=======
+        return this.isActive ? {color:this.activeColor} : {}
+>>>>>>> 667e7c6f9b6db3c912a231d8dcc9bc42fd200482
       }
     },
     methods: {
       itemClick() {
+<<<<<<< HEAD
         // console.log('click');
+=======
+        console.log('click');
+>>>>>>> 667e7c6f9b6db3c912a231d8dcc9bc42fd200482
         this.$router.replace(this.path)
       }
     }

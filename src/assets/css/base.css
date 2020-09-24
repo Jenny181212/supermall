@@ -6,8 +6,13 @@
 /* --css定义变量，可以作为变量使用*/
 :root {
   --color-text: #666;
+<<<<<<< HEAD
   --color-high-text: #f14265;
   --color-tint: #e7556e;
+=======
+  --color-high-text: #ff5777;
+  --color-tint: #ff8198;
+>>>>>>> 667e7c6f9b6db3c912a231d8dcc9bc42fd200482
   --color-background: #fff;
   --font-size: 14px;
   --line-height: 1.5;

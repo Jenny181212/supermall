@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="wrapper">
     <ul class="content">
       <li>分类1</li>
@@ -68,14 +69,26 @@
     mounted() {
       new BScroll('.wrapper')
     }
+=======
+  <h2>分类</h2>
+</template>
+
+<script>
+  export default {
+    name: "Category"
+>>>>>>> 667e7c6f9b6db3c912a231d8dcc9bc42fd200482
   }
 </script>
 
 <style scoped>
+<<<<<<< HEAD
  .wrapper {
    height: 150px;
    background-color: pink;
    overflow: hidden;
    /*overflow-y: scroll;*/
  }
+=======
+
+>>>>>>> 667e7c6f9b6db3c912a231d8dcc9bc42fd200482
 </style>

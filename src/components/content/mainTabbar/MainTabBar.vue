@@ -31,7 +31,11 @@
     components: {
       TabBar,
       TabBarItem
+<<<<<<< HEAD
     },
+=======
+    }
+>>>>>>> 667e7c6f9b6db3c912a231d8dcc9bc42fd200482
   }
 </script>
 
